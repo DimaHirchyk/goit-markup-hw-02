@@ -1,0 +1,196 @@
+body{font-family: 'roboto' sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,ol {list-style-type: none;
+}
+
+.logo{font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #4D5AE5;
+    line-height: 18px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.logo-part {
+    color: #2E2F42;
+}
+
+.header-studio{font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.header-studio:hover {color: #404BBF;
+}
+
+.header-studio:active{text-decoration: underline;
+}
+.header-port{font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+
+.header-port:hover{color: #404BBF;
+}
+
+.header-contacts{font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-contacts:hover{color: #404BBF;
+}
+
+.header-address{font-style: normal
+}
+
+.address-email{font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+
+.address-email:hover {color: #404BBF;
+}
+.address-tel{font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address-tel:hover{color: #404BBF;
+}
+
+.title-bg{background: #2e2f42;
+}
+
+.main-text{font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.button {font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #4D5AE5;
+}
+
+.button:hover {
+    background-color:#404BBF;
+}
+
+.secret {
+    display: none;
+}
+
+.strategy{font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: ##2e2f42;
+}
+
+.par-strategy{font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.punctuality{font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: ##2e2f42;
+}
+
+.par-punctuality{font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+
+.diligence{font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: ##2e2f42;
+}
+
+.par-diligence{font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.two-bg {background-color: #F4F4FD;
+}
+
+.team{font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+        font-size: 36px;
+    text-align: center;
+}
+
+.team-name{background-color: #FFFFFF;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.team-prof{font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.portfolio{ font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.par-port{font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.par-work{font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.last-bg{background-color: #2e2f42;
+}
+
+.logo-footer{color: #F4F4FD;}
+
+.text-footer{color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}

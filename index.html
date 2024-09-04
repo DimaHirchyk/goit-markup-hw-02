@@ -3,73 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+
     <title>Webstudio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css"
+      integrity="sha512-3axTZ/bKFZH5/qLFTl4U+mDbBDFW+5QO5L7D1HnOhlhJbcNDIVJxoNm6It77g0eUdzfKZlHirayqRC2qJaAOJw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="./index.html" class="logo">
-          <span class="web">Web</span><span class="studio">Studio</span></a
+        <a href="./index.html" class="logo"
+          >Web<span class="logo-part">Studio</span></a
         >
         <ul class="navigation">
           <li>
-            <a href="" class="onestudio">Studio</a>
+            <a href="./index.html" class="header-studio">Studio</a>
           </li>
           <li>
-            <a href="" class="oneport">Portfolio</a>
+            <a href="" class="header-port">Portfolio</a>
           </li>
           <li>
-            <a href="">Contacts</a>
+            <a href="" class="header-contacts">Contacts</a>
           </li>
         </ul>
       </nav>
       <address>
-        <ul class="address">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="header-address">
+          <li>
+            <a href="mailto:info@devstudio.com" class="address-email"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="address-tel"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
       <!-- title -->
-      <section class="first-bg">
+      <section class="title-bg">
         <h1 class="main-text">Effective Solutions for Your Business</h1>
         <button type="button" class="button">Order Service</button>
       </section>
       <!-- Studio/Punctualit/Diligence/Technologies -->
       <section>
         <h2 id="Studio" class="secret">Studio</h2>
-        <ul class="studio">
+        <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="strategy">Strategy</h3>
+            <p class="par-strategy">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="punctuality">Punctuality</h3>
+            <p class="par-punctuality">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="diligence">Diligence</h3>
+            <p class="par-diligence">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
@@ -89,23 +102,23 @@
         <ul class="team-list">
           <li>
             <img src="./images/img1.jpg" alt="foto1" width="264" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="team-name">Mark Guerrero</h3>
+            <p class="team-prof">Product Designer</p>
           </li>
           <li>
             <img src="./images/img2.jpg" alt="foto2" width="264" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-name">Tom Ford</h3>
+            <p class="team-prof">Frontend Developer</p>
           </li>
           <li>
             <img src="./images/img3.jpg" alt="foto3" width="264" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="team-name">Camila Garcia</h3>
+            <p class="team-prof">Marketing</p>
           </li>
           <li>
             <img src="./images/img4.jpg" alt="foto4" width="264" />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="team-name">Daniel Wilson</h3>
+            <p class="team-prof">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -114,42 +127,41 @@
         <h2 class="portfolio">Our Portfolio</h2>
         <ul class="port-list">
           <li>
-            <img src="./images/imagen.jpg" alt="imagen" width="264" />
-            <h3>Banking App</h3>
-            <p>App</p>
+            <img src="./images/imagen.jpg" alt="imagen" width="360" />
+            <h3 class="par-port">Banking App</h3>
+            <p class="par-work">App</p>
           </li>
           <li>
-            <img src="/images/phone.jpg" alt="phone" width="264" />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <img src="/images/phone.jpg" alt="phone" width="360" />
+            <h3 class="par-port">Cashless Payment</h3>
+            <p class="par-work">Marketing</p>
           </li>
           <li>
-            <img src="/images/lep-top.jpg" alt="lep-top" width="264" />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <img src="/images/lep-top.jpg" alt="lep-top" width="360" />
+            <h3 class="par-port">Meditation App</h3>
+            <p class="par-work">App</p>
           </li>
           <li>
-            <img src="/images/car.jpg" alt="car" width="264" />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <img src="/images/car.jpg" alt="car" width="360" />
+            <h3 class="par-port">Taxi Service</h3>
+            <p class="par-work">Marketing</p>
           </li>
           <li>
-            <img src="/images/phone-bg.jpg" alt="phone-bg" width="264" />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <img src="/images/phone-bg.jpg" alt="phone-bg" width="360" />
+            <h3 class="par-port">Screen Illustrations</h3>
+            <p class="par-work">Design</p>
           </li>
           <li>
             <img src="/images/girl.jpg" alt="girl" width="264" />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h3 class="par-port">Online Courses</h3>
+            <p class="par-work">Marketing</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="last-bg">
-      <a href="./index.html" class="logo">
-        <span class="web-two">Web</span
-        ><span class="studio-two">Studio</span></a
+      <a href="./index.html" class="logo"
+        >Web<span class="logo-footer">Studio</span></a
       >
       <p class="text-footer">
         Increase the flow of customers and sales for your business with digital

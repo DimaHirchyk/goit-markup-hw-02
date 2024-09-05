@@ -1,4 +1,4 @@
-body {font-family: "Roboto", sans-serif;
+body {font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -12,7 +12,7 @@ ul,ol {list-style-type: none;
 
 /* header */
 
-.logo {font-family: "Raleway", sans-serif;
+.logo {font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #4D5AE5;

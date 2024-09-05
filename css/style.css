@@ -79,7 +79,7 @@ color: #f4f4fd
 }
 
 .button:hover,
-.button:active {background-color:#404BBF;
+.button:focus {background-color:#404BBF;
 }
 
 /* /section 1 */

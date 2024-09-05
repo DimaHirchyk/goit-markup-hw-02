@@ -10,6 +10,8 @@ a {
 ul,ol {list-style-type: none;
 }
 
+/* header */
+
 .logo {font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -65,16 +67,23 @@ color: #2e2f42;
     color: #434455;
     }
 
-.address-email:hover {color: #404BBF;
+.address-email:hover,
+.address-email:focus {color: #404BBF;
 }
+
 .address-tel {font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address-tel:hover {color: #404BBF;
+
+.address-tel:hover,
+.address-tel:focus {color: #404BBF;
 }
 
+/* /header */
+/* main */
+/* section 1 */
 .title-bg {background: #2e2f42;
 }
 
@@ -98,6 +107,10 @@ color: #2e2f42;
 .button:hover {
     background-color:#404BBF;
 }
+
+/* /section 1 */
+
+/* section  */
 
 .strategy {font-weight: 500;
 font-size: 20px;
@@ -138,6 +151,23 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.technologies {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.par-technologies {font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* /section2 */
+
+/* section3 */
+
 .two-bg {background-color: #F4F4FD;
 }
 
@@ -163,6 +193,10 @@ color: #2e2f42;
     letter-spacing: 0.02em;
 }
 
+/* /section3 */
+
+/* section4 */
+
 .portfolio { font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -184,6 +218,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+/* /section4 */
+
+/* footer */
+
 .last-bg {background-color: #2e2f42;
 }
 
@@ -194,3 +232,5 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* /footer */

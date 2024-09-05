@@ -16,9 +16,10 @@ ul,ol {list-style-type: none;
     font-weight: 700;
     font-size: 18px;
     color: #4D5AE5;
-    line-height: 18px;
+    line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+
 }
 
 .header-logo .logo-part {color: #2E2F42;
@@ -77,8 +78,8 @@ color: #f4f4fd
     background-color: #4D5AE5;
 }
 
-.button:hover {
-    background-color:#404BBF;
+.button:hover,
+.button:active {background-color:#404BBF;
 }
 
 /* /section 1 */
@@ -104,6 +105,9 @@ color: #f4f4fd
 .two-bg {background-color: #F4F4FD;
 }
 
+.team-list {background-color: #FFFFFF
+}
+
 .team {font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -113,8 +117,7 @@ color: #f4f4fd
     text-align: center;
 }
 
-.team-name {background-color: #FFFFFF;
-font-weight: 500;
+.team-name {font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;

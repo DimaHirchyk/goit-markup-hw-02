@@ -1,4 +1,4 @@
-body{font-family: 'roboto' sans-serif;
+body {font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -10,7 +10,7 @@ a {
 ul,ol {list-style-type: none;
 }
 
-.logo{font-family: "Raleway", sans-serif;
+.logo {font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #4D5AE5;
@@ -23,41 +23,43 @@ text-transform: uppercase;
     color: #2E2F42;
 }
 
-.header-studio{font-weight: 500;
+.header-studio {font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.header-studio:hover {color: #404BBF;
+.header-studio:hover,
+.header-studio:focus {color: #404BBF;
 }
 
-.header-studio:active{text-decoration: underline;
-}
-.header-port{font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;}
-
-.header-port:hover{color: #404BBF;
+.header-studio:active {text-decoration: underline;
 }
 
-.header-contacts{font-weight: 500;
+.header-port {font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.header-contacts:hover{color: #404BBF;
+.header-port:hover,
+.header-port:focus {color: #404BBF;
 }
 
-.header-address{font-style: normal
+.header-contacts {font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.address-email{font-size: 16px;
+.header-contacts:hover,
+.header-contacts:focus {color: #404BBF;
+}
+
+.address-email {font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -65,18 +67,18 @@ color: #2e2f42;
 
 .address-email:hover {color: #404BBF;
 }
-.address-tel{font-size: 16px;
+.address-tel {font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address-tel:hover{color: #404BBF;
+.address-tel:hover {color: #404BBF;
 }
 
-.title-bg{background: #2e2f42;
+.title-bg {background: #2e2f42;
 }
 
-.main-text{font-size: 56px;
+.main-text {font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
@@ -97,39 +99,40 @@ color: #2e2f42;
     background-color:#404BBF;
 }
 
-.strategy{font-weight: 500;
+.strategy {font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.par-strategy{font-size: 16px;
+.par-strategy {font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
 
-.punctuality{font-weight: 500;
+.punctuality {font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.par-punctuality{font-size: 16px;
+.par-punctuality {font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;
+}
 
-.diligence{font-weight: 500;
+.diligence {font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.par-diligence{font-size: 16px;
+.par-diligence {font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
@@ -138,7 +141,7 @@ color: #434455;
 .two-bg {background-color: #F4F4FD;
 }
 
-.team{font-weight: 700;
+.team {font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -147,7 +150,7 @@ color: #434455;
     text-align: center;
 }
 
-.team-name{background-color: #FFFFFF;
+.team-name {background-color: #FFFFFF;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -155,12 +158,12 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.team-prof{font-size: 16px;
+.team-prof {font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.portfolio{ font-weight: 700;
+.portfolio { font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -169,24 +172,25 @@ color: #2e2f42;
     color: #2e2f42;
 }
 
-.par-port{font-weight: 500;
+.par-port {font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.par-work{font-size: 16px;
+.par-work {font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
-.last-bg{background-color: #2e2f42;
+.last-bg {background-color: #2e2f42;
 }
 
-.logo-footer{color: #F4F4FD;}
+.logo-footer {color: #F4F4FD;
+}
 
-.text-footer{color: #F4F4FD;
+.text-footer {color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
